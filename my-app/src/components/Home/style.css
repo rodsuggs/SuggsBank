@@ -1,0 +1,41 @@
+.header-box{
+    padding: 12px;
+    color: black
+}
+
+.user-name{
+    color: #89cff0
+}
+
+.total-balance-box{
+    display: flex;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+
+    
+}
+/* .card{
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+} */
+ .total-bank-accounts{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
+ }
+ .total-account-balance{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+ }
+ .total-balance-chart{
+    height: 200px;
+    width: 200px
+ }
