@@ -34,7 +34,7 @@ const SideBar = ({user}) => {
         <Link href={item.route} key={item.label}></Link>
       )
     })} */}
-
+    {/* adding comment to test git push */}
 
   </main>
   )
