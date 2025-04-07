@@ -39,3 +39,15 @@
     height: 200px;
     width: 200px
  }
+ .sidebar {
+    display: flex;
+    padding-left: 3%;
+    flex: h-screen;
+    width: full;
+    font: inherit;
+    
+    /* flex h-screen w-full font-inter */
+}
+.container{
+    display: flex;
+}

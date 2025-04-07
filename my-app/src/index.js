@@ -5,11 +5,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/Home/Home.tsx';
 import './components/Home/style.css'
+import SideBar from './components/Home/SideBar.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home></Home>
+  <div className='container'>
+  <SideBar></SideBar>
+  <Home></Home>
+  </div>
   </React.StrictMode>
 );
 
